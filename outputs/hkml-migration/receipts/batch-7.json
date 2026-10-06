@@ -1,0 +1,68 @@
+{
+  "pages": [
+    {
+      "id": "3edbda84-64f6-8158-a0fd-fc5ac974c758",
+      "url": "https://app.notion.com/p/3edbda8464f68158a0fdfc5ac974c758?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 3 Episode 10",
+        "Slug": "hong-kong-machine-learning-season-3-episode-10",
+        "Status": "Not started",
+        "Season": 3,
+        "Episode": 10,
+        "Source URL": "https://www.hkml.ai/2021/05/hong-kong-machine-learning-season-3-episode-10/",
+        "Venue": "your home, on zoom. All meetups will be online as long as this COVID-19 crisis is not over.",
+        "date:Event date:start": "2021-05-05T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2021-05-05T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-8174-b3ac-e21d89e6af46",
+      "url": "https://app.notion.com/p/3edbda8464f68174b3ace21d89e6af46?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 3 Episode 9",
+        "Slug": "hong-kong-machine-learning-season-3-episode-9",
+        "Status": "Not started",
+        "Season": 3,
+        "Episode": 9,
+        "Source URL": "https://www.hkml.ai/2021/03/hong-kong-machine-learning-season-3-episode-9/",
+        "Venue": "your home, on zoom. All meetups will be online as long as this COVID-19 crisis is not over.",
+        "date:Event date:start": "2021-03-16T21:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2021-03-16T23:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-8127-b6a8-f35f883c74d0",
+      "url": "https://app.notion.com/p/3edbda8464f68127b6a8f35f883c74d0?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 3 Episode 8",
+        "Slug": "hong-kong-machine-learning-season-3-episode-8",
+        "Status": "Not started",
+        "Season": 3,
+        "Episode": 8,
+        "Source URL": "https://www.hkml.ai/2021/02/hong-kong-machine-learning-season-3-episode-8/",
+        "Venue": "your home, on zoom. All meetups will be online as long as this COVID-19 crisis is not over.",
+        "date:Event date:start": "2021-02-17T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2021-02-17T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-81c9-b53c-d5b8b67c11ff",
+      "url": "https://app.notion.com/p/3edbda8464f681c9b53cd5b8b67c11ff?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 3 Episode 7",
+        "Slug": "hong-kong-machine-learning-season-3-episode-7",
+        "Status": "Not started",
+        "Season": 3,
+        "Episode": 7,
+        "Source URL": "https://www.hkml.ai/2021/01/hong-kong-machine-learning-season-3-episode-7/",
+        "Venue": "your home, on zoom. All meetups will be online as long as this COVID-19 crisis is not over.",
+        "date:Event date:start": "2021-01-27T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2021-01-27T21:00:00+08:00"
+      }
+    }
+  ]
+}

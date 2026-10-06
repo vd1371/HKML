@@ -1,0 +1,35 @@
+---
+import type { Episode } from '../lib/types';
+
+interface Props { episode: Episode; featured?: boolean }
+const { episode, featured = false } = Astro.props;
+const date = new Date(episode.start);
+const dateLabel = new Intl.DateTimeFormat('en-HK', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'Asia/Hong_Kong' }).format(date);
+const smallCover = episode.cover?.endsWith('-1200.webp') ? episode.cover.replace('-1200.webp', '-640.webp') : undefined;
+---
+
+<article class:list={['episode-card', { featured }]} data-season={episode.season}>
+  <a class="card-image" href={`/episodes/${episode.slug}/`} aria-label={`View ${episode.name}`}>
+    {episode.cover ? (
+      <img src={episode.cover} srcset={smallCover ? `${smallCover} 640w, ${episode.cover} 1200w` : undefined} sizes={featured ? '(max-width: 920px) 100vw, 55vw' : '(max-width: 680px) 100vw, (max-width: 920px) 50vw, 33vw'} alt={episode.coverAlt || `${episode.name} cover`} width="800" height="500" loading={featured ? 'eager' : 'lazy'} decoding="async" />
+    ) : (
+      <span class="image-fallback" aria-hidden="true"><b>HKML</b><small>S{episode.season} · E{episode.episode}</small></span>
+    )}
+  </a>
+  <div class="card-body">
+    <div class="eyebrow"><span>Season {episode.season}</span><span aria-hidden="true">·</span><span>Episode {episode.episode}</span></div>
+    <h3><a href={`/episodes/${episode.slug}/`}>{episode.name}</a></h3>
+    <p class="card-excerpt">{episode.excerpt || episode.introduction || 'Join Hong Kong’s machine-learning community for talks, questions, and new connections.'}</p>
+    <dl class="card-meta">
+      <div>
+        <dt><span class="sr-only">Date</span><span aria-hidden="true">◷</span></dt>
+        <dd><time datetime={episode.start}>{dateLabel}</time></dd>
+      </div>
+      <div>
+        <dt><span class="sr-only">Venue</span><span aria-hidden="true">⌖</span></dt>
+        <dd>{episode.venue}</dd>
+      </div>
+    </dl>
+    <a class="card-link" href={`/episodes/${episode.slug}/`}>View episode <span aria-hidden="true">→</span></a>
+  </div>
+</article>

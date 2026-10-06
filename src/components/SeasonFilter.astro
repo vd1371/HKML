@@ -1,0 +1,38 @@
+---
+const { seasons } = Astro.props as { seasons: number[] };
+---
+
+<div class="season-filter" aria-label="Filter episodes by season">
+  <button type="button" class="is-active" data-season-filter="all" aria-pressed="true">All seasons</button>
+  {seasons.map((season) => <button type="button" data-season-filter={season} aria-pressed="false">Season {season}</button>)}
+</div>
+<p class="filter-status sr-only" aria-live="polite"></p>
+<noscript><p class="noscript-note">Season filters need JavaScript; every published episode is shown below.</p></noscript>
+
+<script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>('[data-season-filter]');
+  const cards = document.querySelectorAll<HTMLElement>('[data-season]');
+  const status = document.querySelector<HTMLElement>('.filter-status');
+  buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const selected = button.dataset.seasonFilter;
+      buttons.forEach((item) => {
+        const active = item === button;
+        item.classList.toggle('is-active', active);
+        item.setAttribute('aria-pressed', String(active));
+      });
+      let visible = 0;
+      cards.forEach((card) => {
+        const show = selected === 'all' || card.dataset.season === selected;
+        card.hidden = !show;
+        if (show) visible += 1;
+      });
+      if (status) status.textContent = `${visible} episode${visible === 1 ? '' : 's'} shown.`;
+    });
+  });
+  const requestedSeason = new URLSearchParams(window.location.search).get('season');
+  if (requestedSeason) {
+    const matchingButton = document.querySelector<HTMLButtonElement>(`[data-season-filter="${CSS.escape(requestedSeason)}"]`);
+    matchingButton?.click();
+  }
+</script>

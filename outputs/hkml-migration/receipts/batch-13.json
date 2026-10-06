@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "id": "3edbda84-64f6-81dd-baf9-e95545657ac3",
+      "url": "https://app.notion.com/p/3edbda8464f681ddbaf9e95545657ac3?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 1 Episode 6",
+        "Slug": "hong-kong-machine-learning-season-1-episode-6",
+        "Status": "Not started",
+        "Season": 1,
+        "Episode": 6,
+        "Source URL": "https://www.hkml.ai/2019/01/hong-kong-machine-learning-season-1-episode-6/",
+        "Venue": "WeWork Taikoo Wan Rd 21/F, Cityplaza Three 14 Taikoo Wan Road, Taikoo Hong Kong",
+        "Excerpt": "Jules Leidelinger",
+        "Introduction": "Jules Leidelinger",
+        "date:Event date:start": "2019-01-23T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2019-01-23T20:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-814f-b0a1-c2b83693099b",
+      "url": "https://app.notion.com/p/3edbda8464f6814fb0a1c2b83693099b?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 1 Episode 5",
+        "Slug": "hong-kong-machine-learning-season-1-episode-5",
+        "Status": "Not started",
+        "Season": 1,
+        "Episode": 5,
+        "Source URL": "https://www.hkml.ai/2018/12/hong-kong-machine-learning-season-1-episode-5/",
+        "Venue": "Prime Insight, 3 Lockhart Road, Wan Chai, Hong Kong",
+        "Excerpt": "Nathan Landman",
+        "Introduction": "Nathan Landman",
+        "date:Event date:start": "2018-12-19T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2018-12-19T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-8117-ac6a-d7d3c46c09dd",
+      "url": "https://app.notion.com/p/3edbda8464f68117ac6ad7d3c46c09dd?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 1 Episode 4",
+        "Slug": "hong-kong-machine-learning-season-1-episode-4",
+        "Status": "Not started",
+        "Season": 1,
+        "Episode": 4,
+        "Source URL": "https://www.hkml.ai/2018/11/hong-kong-machine-learning-season-1-episode-4/",
+        "Venue": "WeWork Wan Chai 10F Mass Mutual Tower, 33 Lockhart Road Wanchai Hong Kong",
+        "Excerpt": "Simon Pavlik",
+        "Introduction": "Simon Pavlik",
+        "date:Event date:start": "2018-11-21T18:30:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2018-11-21T20:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-816b-aab0-c5ba9a28e0b3",
+      "url": "https://app.notion.com/p/3edbda8464f6816baab0c5ba9a28e0b3?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 1 Episode 3",
+        "Slug": "hong-kong-machine-learning-season-1-episode-3",
+        "Status": "Not started",
+        "Season": 1,
+        "Episode": 3,
+        "Source URL": "https://www.hkml.ai/2018/10/hong-kong-machine-learning-season-1-episode-3/",
+        "Venue": "WeWork Taikoo Wan Rd 21/F, Cityplaza Three 14 Taikoo Wan Road, Taikoo Hong Kong",
+        "Excerpt": "Mathis Antony",
+        "Introduction": "Mathis Antony",
+        "date:Event date:start": "2018-10-09T18:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2018-10-09T20:00:00+08:00"
+      }
+    }
+  ]
+}

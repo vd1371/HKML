@@ -1,0 +1,518 @@
+{
+  "verifiedAt": "2026-10-02T08:10:21.101Z",
+  "databaseId": "3edbda8464f680a3bb3ef8d6709d5a35",
+  "total": 56,
+  "uniqueSources": 56,
+  "created": 55,
+  "preserved": 1,
+  "statusesAtVerification": {
+    "Published": 26,
+    "Not started": 30
+  },
+  "entries": [
+    {
+      "url": "https://app.notion.com/3edbda8464f68079b26fd899adc34e0e",
+      "Name": "Hong Kong Machine Learning Season 7 Episode 2",
+      "Status": "Published",
+      "Season": 7,
+      "Episode": 2,
+      "Slug": "hong-kong-machine-learning-season-7-episode-2",
+      "Source URL": "https://www.hkml.ai/2025/04/hong-kong-machine-learning-season-7-episode-2/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68100b518dd1ec41136de",
+      "Name": "Hong Kong Machine Learning Season 4 Episode 9",
+      "Status": "Published",
+      "Season": 4,
+      "Episode": 9,
+      "Slug": "hong-kong-machine-learning-season-4-episode-9",
+      "Source URL": "https://www.hkml.ai/2022/06/hong-kong-machine-learning-season-4-episode-9/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68105bd80db416f1fd9ea",
+      "Name": "Hong Kong Machine Learning Season 4 Episode 3",
+      "Status": "Published",
+      "Season": 4,
+      "Episode": 3,
+      "Slug": "hong-kong-machine-learning-season-4-episode-3",
+      "Source URL": "https://www.hkml.ai/2021/11/hong-kong-machine-learning-season-4-episode-3/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681078c72ffdb705bb5a4",
+      "Name": "Hong Kong Machine Learning Season 4 Episode 1",
+      "Status": "Published",
+      "Season": 4,
+      "Episode": 1,
+      "Slug": "hong-kong-machine-learning-season-4-episode-1",
+      "Source URL": "https://www.hkml.ai/2021/09/hong-kong-machine-learning-season-4-episode-1/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68108bdd2c06d81cca72f",
+      "Name": "Hong Kong Machine Learning Season 5 Episode 4",
+      "Status": "Published",
+      "Season": 5,
+      "Episode": 4,
+      "Slug": "hong-kong-machine-learning-season-5-episode-4",
+      "Source URL": "https://www.hkml.ai/2023/05/hong-kong-machine-learning-season-5-episode-4/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68114b6d2c822582d9f4c",
+      "Name": "Hong Kong Machine Learning Season 5 Episode 3",
+      "Status": "Published",
+      "Season": 5,
+      "Episode": 3,
+      "Slug": "hong-kong-machine-learning-season-5-episode-3",
+      "Source URL": "https://www.hkml.ai/2023/02/hong-kong-machine-learning-season-5-episode-3/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68114b946fbf68dba4aad",
+      "Name": "Hong Kong Machine Learning Season 6 Episode 2",
+      "Status": "Published",
+      "Season": 6,
+      "Episode": 2,
+      "Slug": "hong-kong-machine-learning-season-6-episode-2",
+      "Source URL": "https://www.hkml.ai/2024/03/hong-kong-machine-learning-season-6-episode-2/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681199e92dc65c22a9276",
+      "Name": "Hong Kong Machine Learning Season 6 Episode 4",
+      "Status": "Published",
+      "Season": 6,
+      "Episode": 4,
+      "Slug": "hong-kong-machine-learning-season-6-episode-4",
+      "Source URL": "https://www.hkml.ai/2024/05/hong-kong-machine-learning-season-6-episode-4/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68120a3caf8ecc82dbcd4",
+      "Name": "Hong Kong Machine Learning Season 7 Episode 5",
+      "Status": "Published",
+      "Season": 7,
+      "Episode": 5,
+      "Slug": "hong-kong-machine-learning-season-7-episode-5",
+      "Source URL": "https://www.hkml.ai/2025/12/hong-kong-machine-learning-season-7-episode-5/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f6812e9a09ed016fc47860",
+      "Name": "Hong Kong Machine Learning Season 4 Episode 2",
+      "Status": "Published",
+      "Season": 4,
+      "Episode": 2,
+      "Slug": "hong-kong-machine-learning-season-4-episode-2",
+      "Source URL": "https://www.hkml.ai/2021/10/hong-kong-machine-learning-season-4-episode-2/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681328a0be715fb64a19c",
+      "Name": "Hong Kong Machine Learning Season 5 Episode 1",
+      "Status": "Published",
+      "Season": 5,
+      "Episode": 1,
+      "Slug": "hong-kong-machine-learning-season-5-episode-1",
+      "Source URL": "https://www.hkml.ai/2022/09/hong-kong-machine-learning-season-5-episode-1/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68132aab8d5a6ae7bc3e0",
+      "Name": "Hong Kong Machine Learning Season 7 Episode 3",
+      "Status": "Published",
+      "Season": 7,
+      "Episode": 3,
+      "Slug": "hong-kong-machine-learning-season-7-episode-3",
+      "Source URL": "https://www.hkml.ai/2025/07/hong-kong-machine-learning-season-7-episode-3/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f6814286badb74f7a05c94",
+      "Name": "Hong Kong Machine Learning Season 5 Episode 5",
+      "Status": "Published",
+      "Season": 5,
+      "Episode": 5,
+      "Slug": "hong-kong-machine-learning-season-5-episode-5",
+      "Source URL": "https://www.hkml.ai/2023/06/hong-kong-machine-learning-season-5-episode-5/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68154a202f10ce86bb47f",
+      "Name": "Hong Kong Machine Learning Season 7 Episode 1",
+      "Status": "Published",
+      "Season": 7,
+      "Episode": 1,
+      "Slug": "hong-kong-machine-learning-season-7-episode-1",
+      "Source URL": "https://www.hkml.ai/2025/02/hong-kong-machine-learning-season-7-episode-1/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681579093cfcda545973e",
+      "Name": "Hong Kong Machine Learning Season 3 Episode 12",
+      "Status": "Published",
+      "Season": 3,
+      "Episode": 12,
+      "Slug": "hong-kong-machine-learning-season-3-episode-12",
+      "Source URL": "https://www.hkml.ai/2021/07/hong-kong-machine-learning-season-3-episode-12/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681609051edd5df6d168c",
+      "Name": "Hong Kong Machine Learning Season 6 Episode 1",
+      "Status": "Published",
+      "Season": 6,
+      "Episode": 1,
+      "Slug": "hong-kong-machine-learning-season-6-episode-1",
+      "Source URL": "https://www.hkml.ai/2023/11/hong-kong-machine-learning-season-6-episode-1/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68177aa71cd2529d953f5",
+      "Name": "Hong Kong Machine Learning Season 4 Episode 7",
+      "Status": "Published",
+      "Season": 4,
+      "Episode": 7,
+      "Slug": "hong-kong-machine-learning-season-4-episode-7",
+      "Source URL": "https://www.hkml.ai/2022/04/hong-kong-machine-learning-season-4-episode-7/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f6818ebdf0e101efeb88f5",
+      "Name": "Hong Kong Machine Learning Season 3 Episode 11",
+      "Status": "Published",
+      "Season": 3,
+      "Episode": 11,
+      "Slug": "hong-kong-machine-learning-season-3-episode-11",
+      "Source URL": "https://www.hkml.ai/2021/06/hong-kong-machine-learning-season-3-episode-11/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68195b9aff4665638de96",
+      "Name": "Hong Kong Machine Learning Season 6 Episode 5",
+      "Status": "Published",
+      "Season": 6,
+      "Episode": 5,
+      "Slug": "hong-kong-machine-learning-season-6-episode-5",
+      "Source URL": "https://www.hkml.ai/2024/10/hong-kong-machine-learning-season-6-episode-5/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f6819caf78cd8eff14fb74",
+      "Name": "Hong Kong Machine Learning Season 4 Episode 6",
+      "Status": "Published",
+      "Season": 4,
+      "Episode": 6,
+      "Slug": "hong-kong-machine-learning-season-4-episode-6",
+      "Source URL": "https://www.hkml.ai/2022/03/hong-kong-machine-learning-season-4-episode-6/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681a0a400d605d8f66b3a",
+      "Name": "Hong Kong Machine Learning Season 6 Episode 6",
+      "Status": "Published",
+      "Season": 6,
+      "Episode": 6,
+      "Slug": "hong-kong-machine-learning-season-6-episode-6",
+      "Source URL": "https://www.hkml.ai/2024/10/hong-kong-machine-learning-season-6-episode-6/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681b69852f3ba28af7384",
+      "Name": "Hong Kong Machine Learning Season 6 Episode 3",
+      "Status": "Published",
+      "Season": 6,
+      "Episode": 3,
+      "Slug": "hong-kong-machine-learning-season-6-episode-3",
+      "Source URL": "https://www.hkml.ai/2024/06/hong-kong-machine-learning-season-6-episode-3/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681bfac41e4b0f324996f",
+      "Name": "Hong Kong Machine Learning Season 4 Episode 4",
+      "Status": "Published",
+      "Season": 4,
+      "Episode": 4,
+      "Slug": "hong-kong-machine-learning-season-4-episode-4",
+      "Source URL": "https://www.hkml.ai/2021/12/hong-kong-machine-learning-season-4-episode-4/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681c5987de16b1a28a282",
+      "Name": "Hong Kong Machine Learning Season 4 Episode 5",
+      "Status": "Published",
+      "Season": 4,
+      "Episode": 5,
+      "Slug": "hong-kong-machine-learning-season-4-episode-5",
+      "Source URL": "https://www.hkml.ai/2022/01/hong-kong-machine-learning-season-4-episode-5/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681eb9f32fef2728ded09",
+      "Name": "Hong Kong Machine Learning Season 5 Episode 2",
+      "Status": "Published",
+      "Season": 5,
+      "Episode": 2,
+      "Slug": "hong-kong-machine-learning-season-5-episode-2",
+      "Source URL": "https://www.hkml.ai/2022/11/hong-kong-machine-learning-season-5-episode-2/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681ee96d1d784c71c89cc",
+      "Name": "Hong Kong Machine Learning Season 4 Episode 8",
+      "Status": "Published",
+      "Season": 4,
+      "Episode": 8,
+      "Slug": "hong-kong-machine-learning-season-4-episode-8",
+      "Source URL": "https://www.hkml.ai/2022/05/hong-kong-machine-learning-season-4-episode-8/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68127b6a8f35f883c74d0",
+      "Name": "Hong Kong Machine Learning Season 3 Episode 8",
+      "Status": "Not started",
+      "Season": 3,
+      "Episode": 8,
+      "Slug": "hong-kong-machine-learning-season-3-episode-8",
+      "Source URL": "https://www.hkml.ai/2021/02/hong-kong-machine-learning-season-3-episode-8/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68158a0fdfc5ac974c758",
+      "Name": "Hong Kong Machine Learning Season 3 Episode 10",
+      "Status": "Not started",
+      "Season": 3,
+      "Episode": 10,
+      "Slug": "hong-kong-machine-learning-season-3-episode-10",
+      "Source URL": "https://www.hkml.ai/2021/05/hong-kong-machine-learning-season-3-episode-10/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68174b3ace21d89e6af46",
+      "Name": "Hong Kong Machine Learning Season 3 Episode 9",
+      "Status": "Not started",
+      "Season": 3,
+      "Episode": 9,
+      "Slug": "hong-kong-machine-learning-season-3-episode-9",
+      "Source URL": "https://www.hkml.ai/2021/03/hong-kong-machine-learning-season-3-episode-9/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681c9b53cd5b8b67c11ff",
+      "Name": "Hong Kong Machine Learning Season 3 Episode 7",
+      "Status": "Not started",
+      "Season": 3,
+      "Episode": 7,
+      "Slug": "hong-kong-machine-learning-season-3-episode-7",
+      "Source URL": "https://www.hkml.ai/2021/01/hong-kong-machine-learning-season-3-episode-7/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681808e3cd0287770f966",
+      "Name": "Hong Kong Machine Learning Season 3 Episode 6",
+      "Status": "Not started",
+      "Season": 3,
+      "Episode": 6,
+      "Slug": "hong-kong-machine-learning-season-3-episode-6",
+      "Source URL": "https://www.hkml.ai/2021/01/hong-kong-machine-learning-season-3-episode-6/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68135880ed716289d1888",
+      "Name": "Hong Kong Machine Learning Season 3 Episode 5",
+      "Status": "Not started",
+      "Season": 3,
+      "Episode": 5,
+      "Slug": "hong-kong-machine-learning-season-3-episode-5",
+      "Source URL": "https://www.hkml.ai/2020/12/hong-kong-machine-learning-season-3-episode-5/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68197a4baef589c5f41bb",
+      "Name": "Hong Kong Machine Learning Season 3 Episode 4",
+      "Status": "Not started",
+      "Season": 3,
+      "Episode": 4,
+      "Slug": "hong-kong-machine-learning-season-3-episode-4",
+      "Source URL": "https://www.hkml.ai/2020/11/hong-kong-machine-learning-season-3-episode-4/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681afb06ec43340b9735c",
+      "Name": "Hong Kong Machine Learning Season 3 Episode 3",
+      "Status": "Not started",
+      "Season": 3,
+      "Episode": 3,
+      "Slug": "hong-kong-machine-learning-season-3-episode-3",
+      "Source URL": "https://www.hkml.ai/2020/10/hong-kong-machine-learning-season-3-episode-3/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68119b45fca062fa7213b",
+      "Name": "Hong Kong Machine Learning Season 3 Episode 2",
+      "Status": "Not started",
+      "Season": 3,
+      "Episode": 2,
+      "Slug": "hong-kong-machine-learning-season-3-episode-2",
+      "Source URL": "https://www.hkml.ai/2020/10/hong-kong-machine-learning-season-3-episode-2/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68158a2e8f50057354e27",
+      "Name": "Hong Kong Machine Learning Season 2 Episode 7",
+      "Status": "Not started",
+      "Season": 2,
+      "Episode": 7,
+      "Slug": "hong-kong-machine-learning-season-2-episode-7",
+      "Source URL": "https://www.hkml.ai/2020/06/hong-kong-machine-learning-season-2-episode-7/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f6818ea0dac244b4ee2dcb",
+      "Name": "Hong Kong Machine Learning Season 3 Episode 1",
+      "Status": "Not started",
+      "Season": 3,
+      "Episode": 1,
+      "Slug": "hong-kong-machine-learning-season-3-episode-1",
+      "Source URL": "https://www.hkml.ai/2020/09/hong-kong-machine-learning-season-3-episode-1/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681c794e1cd775a842c2a",
+      "Name": "Hong Kong Machine Learning Season 2 Episode 8",
+      "Status": "Not started",
+      "Season": 2,
+      "Episode": 8,
+      "Slug": "hong-kong-machine-learning-season-2-episode-8",
+      "Source URL": "https://www.hkml.ai/2020/07/hong-kong-machine-learning-season-2-episode-8/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f6810f8ac7df0ce71728a3",
+      "Name": "Hong Kong Machine Learning Season 2 Episode 6",
+      "Status": "Not started",
+      "Season": 2,
+      "Episode": 6,
+      "Slug": "hong-kong-machine-learning-season-2-episode-6",
+      "Source URL": "https://www.hkml.ai/2020/05/hong-kong-machine-learning-season-2-episode-6/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681368923cc696d7d6395",
+      "Name": "Hong Kong Machine Learning Season 2 Episode 4",
+      "Status": "Not started",
+      "Season": 2,
+      "Episode": 4,
+      "Slug": "hong-kong-machine-learning-season-2-episode-4",
+      "Source URL": "https://www.hkml.ai/2020/04/hong-kong-machine-learning-season-2-episode-4/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681419dcecb80356a423d",
+      "Name": "Hong Kong Machine Learning Season 2 Episode 3",
+      "Status": "Not started",
+      "Season": 2,
+      "Episode": 3,
+      "Slug": "hong-kong-machine-learning-season-2-episode-3",
+      "Source URL": "https://www.hkml.ai/2020/01/hong-kong-machine-learning-season-2-episode-3/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f6818aab12f26174b8c9a9",
+      "Name": "Hong Kong Machine Learning Season 2 Episode 5",
+      "Status": "Not started",
+      "Season": 2,
+      "Episode": 5,
+      "Slug": "hong-kong-machine-learning-season-2-episode-5",
+      "Source URL": "https://www.hkml.ai/2020/04/hong-kong-machine-learning-season-2-episode-5/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681cbbf13fb06192a18d6",
+      "Name": "Hong Kong Machine Learning Season 2 Episode 1",
+      "Status": "Not started",
+      "Season": 2,
+      "Episode": 1,
+      "Slug": "hong-kong-machine-learning-season-2-episode-1",
+      "Source URL": "https://www.hkml.ai/2019/09/hong-kong-machine-learning-season-2-episode-1/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681e8958dc210e0b3e4c0",
+      "Name": "Hong Kong Machine Learning Season 2 Episode 2",
+      "Status": "Not started",
+      "Season": 2,
+      "Episode": 2,
+      "Slug": "hong-kong-machine-learning-season-2-episode-2",
+      "Source URL": "https://www.hkml.ai/2019/10/hong-kong-machine-learning-season-2-episode-2/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68140a0f0f618d99681bc",
+      "Name": "Hong Kong Machine Learning Season 1 Episode 11",
+      "Status": "Not started",
+      "Season": 1,
+      "Episode": 11,
+      "Slug": "hong-kong-machine-learning-season-1-episode-11",
+      "Source URL": "https://www.hkml.ai/2019/06/hong-kong-machine-learning-season-1-episode-11/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681958cafd8e4a0ecdc0e",
+      "Name": "Hong Kong Machine Learning Season 1 Episode 12",
+      "Status": "Not started",
+      "Season": 1,
+      "Episode": 12,
+      "Slug": "hong-kong-machine-learning-season-1-episode-12",
+      "Source URL": "https://www.hkml.ai/2019/07/hong-kong-machine-learning-season-1-episode-12/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681b1b6d6ff5bd1a5a0d2",
+      "Name": "Hong Kong Machine Learning Season 1 Episode 8",
+      "Status": "Not started",
+      "Season": 1,
+      "Episode": 8,
+      "Slug": "hong-kong-machine-learning-season-1-episode-8",
+      "Source URL": "https://www.hkml.ai/2019/03/hong-kong-machine-learning-season-1-episode-8/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681b5bd81c7679fb5b414",
+      "Name": "Hong Kong Machine Learning Season 1 Episode 10",
+      "Status": "Not started",
+      "Season": 1,
+      "Episode": 10,
+      "Slug": "hong-kong-machine-learning-season-1-episode-10",
+      "Source URL": "https://www.hkml.ai/2019/05/hong-kong-machine-learning-season-1-episode-10/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681d0abebee4556df9abf",
+      "Name": "Hong Kong Machine Learning Season 1 Episode 9",
+      "Status": "Not started",
+      "Season": 1,
+      "Episode": 9,
+      "Slug": "hong-kong-machine-learning-season-1-episode-9",
+      "Source URL": "https://www.hkml.ai/2019/04/hong-kong-machine-learning-season-1-episode-9/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681d7b1dad666a160230e",
+      "Name": "Hong Kong Machine Learning Season 1 Episode 7",
+      "Status": "Not started",
+      "Season": 1,
+      "Episode": 7,
+      "Slug": "hong-kong-machine-learning-season-1-episode-7",
+      "Source URL": "https://www.hkml.ai/2019/02/hong-kong-machine-learning-season-1-episode-7/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f68117ac6ad7d3c46c09dd",
+      "Name": "Hong Kong Machine Learning Season 1 Episode 4",
+      "Status": "Not started",
+      "Season": 1,
+      "Episode": 4,
+      "Slug": "hong-kong-machine-learning-season-1-episode-4",
+      "Source URL": "https://www.hkml.ai/2018/11/hong-kong-machine-learning-season-1-episode-4/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f6816baab0c5ba9a28e0b3",
+      "Name": "Hong Kong Machine Learning Season 1 Episode 3",
+      "Status": "Not started",
+      "Season": 1,
+      "Episode": 3,
+      "Slug": "hong-kong-machine-learning-season-1-episode-3",
+      "Source URL": "https://www.hkml.ai/2018/10/hong-kong-machine-learning-season-1-episode-3/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681ddbaf9e95545657ac3",
+      "Name": "Hong Kong Machine Learning Season 1 Episode 6",
+      "Status": "Not started",
+      "Season": 1,
+      "Episode": 6,
+      "Slug": "hong-kong-machine-learning-season-1-episode-6",
+      "Source URL": "https://www.hkml.ai/2019/01/hong-kong-machine-learning-season-1-episode-6/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f6814fb0a1c2b83693099b",
+      "Name": "Hong Kong Machine Learning Season 1 Episode 5",
+      "Status": "Not started",
+      "Season": 1,
+      "Episode": 5,
+      "Slug": "hong-kong-machine-learning-season-1-episode-5",
+      "Source URL": "https://www.hkml.ai/2018/12/hong-kong-machine-learning-season-1-episode-5/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f681129dfaf643d09162ca",
+      "Name": "Hong Kong Machine Learning Season 1 Episode 2",
+      "Status": "Not started",
+      "Season": 1,
+      "Episode": 2,
+      "Slug": "hong-kong-machine-learning-season-1-episode-2",
+      "Source URL": "https://www.hkml.ai/2018/08/hong-kong-machine-learning-season-1-episode-2/"
+    },
+    {
+      "url": "https://app.notion.com/3edbda8464f6814d8197d45c6db32e1b",
+      "Name": "Hong Kong Machine Learning Season 1 Episode 1",
+      "Status": "Not started",
+      "Season": 1,
+      "Episode": 1,
+      "Slug": "hong-kong-machine-learning-season-1-episode-1",
+      "Source URL": "https://www.hkml.ai/2018/07/hong-kong-machine-learning-season-1-episode-1/"
+    }
+  ]
+}

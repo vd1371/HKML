@@ -1,0 +1,93 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import EventDetails from '../../../components/EventDetails.astro';
+import SpeakerCard from '../../../components/SpeakerCard.astro';
+import { getEpisodes } from '../../../lib/episodes';
+import type { Episode } from '../../../lib/types';
+
+export async function getStaticPaths() {
+  const episodes = await getEpisodes();
+  return episodes.map((episode) => ({ params: { slug: episode.slug }, props: { episode } }));
+}
+
+const { episode } = Astro.props as { episode: Episode };
+const siteUrl = process.env.PUBLIC_SITE_URL || 'https://www.hkml.ai';
+const smallCover = episode.cover?.endsWith('-1200.webp') ? episode.cover.replace('-1200.webp', '-640.webp') : undefined;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Event',
+  name: episode.name,
+  description: episode.excerpt || episode.introduction,
+  startDate: episode.start,
+  ...(episode.end ? { endDate: episode.end } : {}),
+  eventStatus: 'https://schema.org/EventScheduled',
+  eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+  image: episode.cover ? [new URL(episode.cover, siteUrl).toString()] : undefined,
+  location: {
+    '@type': 'Place',
+    name: episode.venue,
+    address: { '@type': 'PostalAddress', streetAddress: episode.address || episode.venue, addressLocality: 'Hong Kong', addressCountry: 'HK' },
+  },
+  organizer: { '@type': 'Organization', name: episode.organizer || 'Hong Kong Machine Learning', url: siteUrl },
+  performer: episode.speakers.map((speaker) => ({ '@type': 'Person', name: speaker.name })),
+  url: new URL(`/episodes/${episode.slug}/`, siteUrl).toString(),
+};
+---
+
+<BaseLayout
+  title={`${episode.name} — HKML S${episode.season}E${episode.episode}`}
+  description={episode.excerpt || `Hong Kong Machine Learning Season ${episode.season}, Episode ${episode.episode}.`}
+  image={episode.cover}
+  canonicalPath={`/episodes/${episode.slug}/`}
+  type="article"
+  jsonLd={jsonLd}
+>
+  <header class="episode-hero">
+    <div class="container episode-hero-inner">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a><span aria-hidden="true">/</span>
+        <a href="/episodes/">Episodes</a><span aria-hidden="true">/</span>
+        <span>Season {episode.season}, Episode {episode.episode}</span>
+      </nav>
+      <div class="episode-hero-grid">
+        <div>
+          <p class="kicker">Season {episode.season} · Episode {episode.episode}</p>
+          <h1>{episode.name}</h1>
+          <p class="lead">{episode.excerpt || episode.introduction}</p>
+          {episode.tags?.length && <div class="tags">{episode.tags.map((tag) => <span>{tag}</span>)}</div>}
+        </div>
+        <div class="episode-cover">
+          {episode.cover ? <img src={episode.cover} srcset={smallCover ? `${smallCover} 640w, ${episode.cover} 1200w` : undefined} sizes="(max-width: 920px) 100vw, 45vw" alt={episode.coverAlt || `${episode.name} event cover`} width="900" height="560" decoding="async" /> : <span class="image-fallback"><b>HKML</b><small>S{episode.season} · E{episode.episode}</small></span>}
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container episode-content">
+      <EventDetails episode={episode} />
+      <div>
+        <section class="episode-intro" aria-labelledby="intro-title">
+          <p class="kicker">The evening</p>
+          <h2 id="intro-title">What we explored</h2>
+          <p>{episode.introduction || episode.excerpt || 'A community evening of technical talks, open questions, and conversation.'}</p>
+        </section>
+        <section aria-labelledby="speakers-title">
+          <div class="section-heading compact" style="margin-top: 3rem">
+            <p class="kicker">Programme</p>
+            <h2 id="speakers-title">Speakers & talks</h2>
+          </div>
+          {episode.speakers.length ? (
+            <div class="speaker-list">{episode.speakers.map((speaker, index) => <SpeakerCard speaker={speaker} index={index} />)}</div>
+          ) : (
+            <p>Speaker details will be announced soon.</p>
+          )}
+          <nav class="episode-nav" aria-label="Episode navigation">
+            <a class="button button-secondary" href={`/episodes/?season=${episode.season}`}>Season {episode.season}</a>
+            <a class="button button-secondary" href="/episodes/">All episodes</a>
+          </nav>
+        </section>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

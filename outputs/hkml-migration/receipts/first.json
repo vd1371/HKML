@@ -1,0 +1,25 @@
+{
+  "pages": [
+    {
+      "id": "3edbda84-64f6-8120-a3ca-f8ecc82dbcd4",
+      "url": "https://app.notion.com/p/3edbda8464f68120a3caf8ecc82dbcd4?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 7 Episode 5",
+        "Slug": "hong-kong-machine-learning-season-7-episode-5",
+        "Status": "Not started",
+        "Season": 7,
+        "Episode": 5,
+        "Source URL": "https://www.hkml.ai/2025/12/hong-kong-machine-learning-season-7-episode-5/",
+        "Venue": "Bullish Limited, 31/F, The Centrium, 60 Wyndham St, Central, Hong Kong",
+        "Meetup URL": "https://www.meetup.com/hong-kong-machine-learning-meetup/events/312257029/",
+        "Organizer": "Vahid Asghari",
+        "Sponsor": "Bullish",
+        "Excerpt": "Our final Hong Kong Machine Learning Meetup of the year brought together builders from Web3, quantitative finance, and natural language processing, showcasing how machine learning continues to reshape industries in very different ways.",
+        "Introduction": "Our final Hong Kong Machine Learning Meetup of the year brought together builders from Web3, quantitative finance, and natural language processing, showcasing how machine learning continues to reshape industries in very different ways.",
+        "date:Event date:start": "2025-12-18T18:30:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2025-12-18T21:00:00+08:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "pages": [
+    {
+      "id": "3edbda84-64f6-8132-8a0b-e715fb64a19c",
+      "url": "https://app.notion.com/p/3edbda8464f681328a0be715fb64a19c?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 5 Episode 1",
+        "Slug": "hong-kong-machine-learning-season-5-episode-1",
+        "Status": "Not started",
+        "Season": 5,
+        "Episode": 1,
+        "Source URL": "https://www.hkml.ai/2022/09/hong-kong-machine-learning-season-5-episode-1/",
+        "Venue": "Amazon AWS office in Tower 535, Causeway Bay, Hong Kong. First in-person meetup in a while!",
+        "Meetup URL": "https://www.meetup.com/hong-kong-machine-learning-meetup/events/288244565/",
+        "date:Event date:start": "2022-09-22T18:30:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2022-09-22T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-8100-b518-dd1ec41136de",
+      "url": "https://app.notion.com/p/3edbda8464f68100b518dd1ec41136de?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 4 Episode 9",
+        "Slug": "hong-kong-machine-learning-season-4-episode-9",
+        "Status": "Not started",
+        "Season": 4,
+        "Episode": 9,
+        "Source URL": "https://www.hkml.ai/2022/06/hong-kong-machine-learning-season-4-episode-9/",
+        "Venue": "zoom.",
+        "Meetup URL": "https://www.meetup.com/hong-kong-machine-learning-meetup/events/286218598/",
+        "date:Event date:start": "2022-06-15T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2022-06-15T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-81ee-96d1-d784c71c89cc",
+      "url": "https://app.notion.com/p/3edbda8464f681ee96d1d784c71c89cc?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 4 Episode 8",
+        "Slug": "hong-kong-machine-learning-season-4-episode-8",
+        "Status": "Not started",
+        "Season": 4,
+        "Episode": 8,
+        "Source URL": "https://www.hkml.ai/2022/05/hong-kong-machine-learning-season-4-episode-8/",
+        "Venue": "zoom.",
+        "Meetup URL": "https://www.meetup.com/Hong-Kong-Machine-Learning-Meetup/events/285561760/",
+        "date:Event date:start": "2022-05-11T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2022-05-11T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-8177-aa71-cd2529d953f5",
+      "url": "https://app.notion.com/p/3edbda8464f68177aa71cd2529d953f5?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 4 Episode 7",
+        "Slug": "hong-kong-machine-learning-season-4-episode-7",
+        "Status": "Not started",
+        "Season": 4,
+        "Episode": 7,
+        "Source URL": "https://www.hkml.ai/2022/04/hong-kong-machine-learning-season-4-episode-7/",
+        "Venue": "zoom.",
+        "Meetup URL": "https://www.meetup.com/Hong-Kong-Machine-Learning-Meetup/events/284161579/",
+        "date:Event date:start": "2022-04-13T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2022-04-13T21:00:00+08:00"
+      }
+    }
+  ]
+}

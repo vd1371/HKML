@@ -1,0 +1,74 @@
+{
+  "pages": [
+    {
+      "id": "3edbda84-64f6-8119-b45f-ca062fa7213b",
+      "url": "https://app.notion.com/p/3edbda8464f68119b45fca062fa7213b?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 3 Episode 2",
+        "Slug": "hong-kong-machine-learning-season-3-episode-2",
+        "Status": "Not started",
+        "Season": 3,
+        "Episode": 2,
+        "Source URL": "https://www.hkml.ai/2020/10/hong-kong-machine-learning-season-3-episode-2/",
+        "Venue": "your home, on zoom. All meetups will be online as long as this COVID-19 crisis is not over.",
+        "Excerpt": "Uri Lee",
+        "Introduction": "Uri Lee",
+        "date:Event date:start": "2020-10-08T20:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2020-10-08T22:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-818e-a0da-c244b4ee2dcb",
+      "url": "https://app.notion.com/p/3edbda8464f6818ea0dac244b4ee2dcb?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 3 Episode 1",
+        "Slug": "hong-kong-machine-learning-season-3-episode-1",
+        "Status": "Not started",
+        "Season": 3,
+        "Episode": 1,
+        "Source URL": "https://www.hkml.ai/2020/09/hong-kong-machine-learning-season-3-episode-1/",
+        "Venue": "your home, on zoom. All meetups will be online as long as this COVID-19 crisis is not over.",
+        "date:Event date:start": "2020-09-30T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2020-09-30T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-81c7-94e1-cd775a842c2a",
+      "url": "https://app.notion.com/p/3edbda8464f681c794e1cd775a842c2a?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 2 Episode 8",
+        "Slug": "hong-kong-machine-learning-season-2-episode-8",
+        "Status": "Not started",
+        "Season": 2,
+        "Episode": 8,
+        "Source URL": "https://www.hkml.ai/2020/07/hong-kong-machine-learning-season-2-episode-8/",
+        "Venue": "your home, on zoom. All meetups will be online as long as this COVID-19 crisis is not over.",
+        "Excerpt": "Scott Fullman ML Lead @ Ascent - Snorkel: Weak Supervision for NLP Tasks",
+        "Introduction": "Scott Fullman ML Lead @ Ascent - Snorkel: Weak Supervision for NLP Tasks",
+        "date:Event date:start": "2020-07-15T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2020-07-15T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-8158-a2e8-f50057354e27",
+      "url": "https://app.notion.com/p/3edbda8464f68158a2e8f50057354e27?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 2 Episode 7",
+        "Slug": "hong-kong-machine-learning-season-2-episode-7",
+        "Status": "Not started",
+        "Season": 2,
+        "Episode": 7,
+        "Source URL": "https://www.hkml.ai/2020/06/hong-kong-machine-learning-season-2-episode-7/",
+        "Venue": "your home, on zoom. All meetups will be online as long as this COVID-19 crisis is not over.",
+        "Excerpt": "Max Halford - A brief introduction to online machine learning",
+        "Introduction": "Max Halford - A brief introduction to online machine learning",
+        "date:Event date:start": "2020-06-10T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2020-06-10T21:00:00+08:00"
+      }
+    }
+  ]
+}

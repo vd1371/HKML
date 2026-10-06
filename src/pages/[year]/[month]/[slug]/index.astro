@@ -1,0 +1,23 @@
+---
+import { getEpisodes } from '../../../../lib/episodes';
+import { oldEpisodePath } from '../../../../lib/content';
+
+export async function getStaticPaths() {
+  const episodes = await getEpisodes();
+  const generated = episodes.map((episode) => {
+    const [, year, month, slug] = oldEpisodePath(episode).split('/');
+    return { params: { year, month, slug }, props: { destination: `/episodes/${episode.slug}/` } };
+  });
+  const knownLegacyExceptions = [
+    {
+      params: { year: '2024', month: '10', slug: 'hong-kong-machine-learning-season-6-episode-6' },
+      props: { destination: '/episodes/hong-kong-machine-learning-season-6-episode-6/' },
+    },
+  ];
+  const keys = new Set(generated.map(({ params }) => `${params.year}/${params.month}/${params.slug}`));
+  return [...generated, ...knownLegacyExceptions.filter(({ params }) => !keys.has(`${params.year}/${params.month}/${params.slug}`))];
+}
+
+const { destination } = Astro.props as { destination: string };
+return Astro.redirect(destination, 301);
+---

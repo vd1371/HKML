@@ -1,0 +1,72 @@
+{
+  "pages": [
+    {
+      "id": "3edbda84-64f6-8142-86ba-db74f7a05c94",
+      "url": "https://app.notion.com/p/3edbda8464f6814286badb74f7a05c94?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 5 Episode 5",
+        "Slug": "hong-kong-machine-learning-season-5-episode-5",
+        "Status": "Not started",
+        "Season": 5,
+        "Episode": 5,
+        "Source URL": "https://www.hkml.ai/2023/06/hong-kong-machine-learning-season-5-episode-5/",
+        "Venue": "line on Zoom.",
+        "Meetup URL": "https://www.meetup.com/hong-kong-machine-learning-meetup/events/293827893/",
+        "date:Event date:start": "2023-06-06T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2023-06-06T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-8108-bdd2-c06d81cca72f",
+      "url": "https://app.notion.com/p/3edbda8464f68108bdd2c06d81cca72f?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 5 Episode 4",
+        "Slug": "hong-kong-machine-learning-season-5-episode-4",
+        "Status": "Not started",
+        "Season": 5,
+        "Episode": 4,
+        "Source URL": "https://www.hkml.ai/2023/05/hong-kong-machine-learning-season-5-episode-4/",
+        "Venue": "Amazon AWS office (Tower 535) in Causeway Bay, Hong Kong.",
+        "Meetup URL": "https://www.meetup.com/hong-kong-machine-learning-meetup/events/292751322/",
+        "date:Event date:start": "2023-05-11T18:30:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2023-05-11T20:30:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-8114-b6d2-c822582d9f4c",
+      "url": "https://app.notion.com/p/3edbda8464f68114b6d2c822582d9f4c?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 5 Episode 3",
+        "Slug": "hong-kong-machine-learning-season-5-episode-3",
+        "Status": "Not started",
+        "Season": 5,
+        "Episode": 3,
+        "Source URL": "https://www.hkml.ai/2023/02/hong-kong-machine-learning-season-5-episode-3/",
+        "Venue": "line on Zoom.",
+        "Meetup URL": "https://www.meetup.com/hong-kong-machine-learning-meetup/events/291590253/",
+        "date:Event date:start": "2023-02-23T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2023-02-23T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-81eb-9f32-fef2728ded09",
+      "url": "https://app.notion.com/p/3edbda8464f681eb9f32fef2728ded09?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 5 Episode 2",
+        "Slug": "hong-kong-machine-learning-season-5-episode-2",
+        "Status": "Not started",
+        "Season": 5,
+        "Episode": 2,
+        "Source URL": "https://www.hkml.ai/2022/11/hong-kong-machine-learning-season-5-episode-2/",
+        "Venue": "line on Zoom.",
+        "Meetup URL": "https://www.meetup.com/hong-kong-machine-learning-meetup/events/289657520/",
+        "date:Event date:start": "2022-11-23T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2022-11-23T21:00:00+08:00"
+      }
+    }
+  ]
+}

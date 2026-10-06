@@ -1,0 +1,28 @@
+{
+  "pages": [
+    {
+      "id": "3edbda84-64f6-8112-9dfa-f643d09162ca",
+      "url": "https://app.notion.com/p/3edbda8464f681129dfaf643d09162ca?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 1 Episode 2",
+        "Slug": "hong-kong-machine-learning-season-1-episode-2",
+        "Status": "Not started",
+        "Season": 1,
+        "Episode": 2,
+        "Source URL": "https://www.hkml.ai/2018/08/hong-kong-machine-learning-season-1-episode-2/"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-814d-8197-d45c6db32e1b",
+      "url": "https://app.notion.com/p/3edbda8464f6814d8197d45c6db32e1b?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 1 Episode 1",
+        "Slug": "hong-kong-machine-learning-season-1-episode-1",
+        "Status": "Not started",
+        "Season": 1,
+        "Episode": 1,
+        "Source URL": "https://www.hkml.ai/2018/07/hong-kong-machine-learning-season-1-episode-1/"
+      }
+    }
+  ]
+}

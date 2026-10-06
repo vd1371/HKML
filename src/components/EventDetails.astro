@@ -1,0 +1,40 @@
+---
+import type { Episode } from '../lib/types';
+const { episode } = Astro.props as { episode: Episode };
+const start = new Date(episode.start);
+const end = episode.end ? new Date(episode.end) : undefined;
+const day = new Intl.DateTimeFormat('en-HK', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Asia/Hong_Kong' }).format(start);
+const time = new Intl.DateTimeFormat('en-HK', { hour: 'numeric', minute: '2-digit', timeZone: 'Asia/Hong_Kong', timeZoneName: 'short' });
+const timeLabel = end ? `${time.format(start)}–${time.format(end).replace(/\sGMT\+8$/, '')}` : time.format(start);
+---
+
+<section class="event-details" aria-labelledby="details-title">
+  <div class="section-heading compact">
+    <p class="kicker">Event details</p>
+    <h2 id="details-title">Make a note</h2>
+  </div>
+  <dl class="detail-grid">
+    <div>
+      <dt>Date</dt>
+      <dd><time datetime={episode.start}>{day}</time></dd>
+    </div>
+    <div>
+      <dt>Time</dt>
+      <dd>{timeLabel}</dd>
+    </div>
+    <div>
+      <dt>Venue</dt>
+      <dd>{episode.venue}{episode.address && <span>{episode.address}</span>}</dd>
+    </div>
+    {(episode.organizer || episode.sponsor) && (
+      <div>
+        <dt>Community</dt>
+        <dd>
+          {episode.organizer && <span>Organized by {episode.organizer}</span>}
+          {episode.sponsor && <span>Supported by {episode.sponsor}</span>}
+        </dd>
+      </div>
+    )}
+  </dl>
+  {episode.meetupUrl && <a class="button button-primary" href={episode.meetupUrl} target="_blank" rel="noreferrer">View on Meetup <span aria-hidden="true">↗</span></a>}
+</section>

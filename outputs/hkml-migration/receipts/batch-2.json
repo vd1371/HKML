@@ -1,0 +1,72 @@
+{
+  "pages": [
+    {
+      "id": "3edbda84-64f6-81b6-9852-f3ba28af7384",
+      "url": "https://app.notion.com/p/3edbda8464f681b69852f3ba28af7384?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 6 Episode 3",
+        "Slug": "hong-kong-machine-learning-season-6-episode-3",
+        "Status": "Not started",
+        "Season": 6,
+        "Episode": 3,
+        "Source URL": "https://www.hkml.ai/2024/06/hong-kong-machine-learning-season-6-episode-3/",
+        "Venue": "HKU iCube by HKU Business School, Exchange Square, Central.",
+        "Meetup URL": "https://www.meetup.com/hong-kong-machine-learning-meetup/events/300734282//",
+        "date:Event date:start": "2024-06-13T17:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2024-06-13T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-8119-9e92-dc65c22a9276",
+      "url": "https://app.notion.com/p/3edbda8464f681199e92dc65c22a9276?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 6 Episode 4",
+        "Slug": "hong-kong-machine-learning-season-6-episode-4",
+        "Status": "Not started",
+        "Season": 6,
+        "Episode": 4,
+        "Source URL": "https://www.hkml.ai/2024/05/hong-kong-machine-learning-season-6-episode-4/",
+        "Venue": "NCS office, Quarry Bay, Hong Kong.",
+        "Meetup URL": "https://www.meetup.com/hong-kong-machine-learning-meetup/events/300965300/",
+        "date:Event date:start": "2024-05-23T18:15:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2024-05-23T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-8114-b946-fbf68dba4aad",
+      "url": "https://app.notion.com/p/3edbda8464f68114b946fbf68dba4aad?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 6 Episode 2",
+        "Slug": "hong-kong-machine-learning-season-6-episode-2",
+        "Status": "Not started",
+        "Season": 6,
+        "Episode": 2,
+        "Source URL": "https://www.hkml.ai/2024/03/hong-kong-machine-learning-season-6-episode-2/",
+        "Venue": "Amazon AWS, Tower 535, 535 Jaffe Road, Causeway Bay, Hong Kong.",
+        "Meetup URL": "https://www.meetup.com/hong-kong-machine-learning-meetup/events/299763874",
+        "date:Event date:start": "2024-03-22T18:30:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2024-03-22T21:30:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-8160-9051-edd5df6d168c",
+      "url": "https://app.notion.com/p/3edbda8464f681609051edd5df6d168c?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 6 Episode 1",
+        "Slug": "hong-kong-machine-learning-season-6-episode-1",
+        "Status": "Not started",
+        "Season": 6,
+        "Episode": 1,
+        "Source URL": "https://www.hkml.ai/2023/11/hong-kong-machine-learning-season-6-episode-1/",
+        "Venue": "Hong Thai Expo & Business Center (also theDesk), 5/F, United Centre, 95 Queensway, Admiralty, Hong Kong.",
+        "Meetup URL": "https://www.meetup.com/hong-kong-machine-learning-meetup/events/296966427/",
+        "date:Event date:start": "2023-11-29T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2023-11-29T21:00:00+08:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "id": "3edbda84-64f6-810f-8ac7-df0ce71728a3",
+      "url": "https://app.notion.com/p/3edbda8464f6810f8ac7df0ce71728a3?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 2 Episode 6",
+        "Slug": "hong-kong-machine-learning-season-2-episode-6",
+        "Status": "Not started",
+        "Season": 2,
+        "Episode": 6,
+        "Source URL": "https://www.hkml.ai/2020/05/hong-kong-machine-learning-season-2-episode-6/",
+        "Venue": "your home, on zoom. All meetups will be online as long as this COVID-19 crisis is not over.",
+        "Excerpt": "Pranav A - 2kenize: Tying Subword Sequences for Chinese Script Conversion",
+        "Introduction": "Pranav A - 2kenize: Tying Subword Sequences for Chinese Script Conversion",
+        "date:Event date:start": "2020-05-13T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2020-05-13T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-818a-ab12-f26174b8c9a9",
+      "url": "https://app.notion.com/p/3edbda8464f6818aab12f26174b8c9a9?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 2 Episode 5",
+        "Slug": "hong-kong-machine-learning-season-2-episode-5",
+        "Status": "Not started",
+        "Season": 2,
+        "Episode": 5,
+        "Source URL": "https://www.hkml.ai/2020/04/hong-kong-machine-learning-season-2-episode-5/",
+        "Venue": "your home, on zoom. All meetups will be online as long as this COVID-19 crisis is not over.",
+        "Excerpt": "Robert Milan Porsch (Data Scientist at Apoidea) - Numeracy understanding in language models",
+        "Introduction": "Robert Milan Porsch (Data Scientist at Apoidea) - Numeracy understanding in language models",
+        "date:Event date:start": "2020-04-29T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2020-04-29T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-8136-8923-cc696d7d6395",
+      "url": "https://app.notion.com/p/3edbda8464f681368923cc696d7d6395?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 2 Episode 4",
+        "Slug": "hong-kong-machine-learning-season-2-episode-4",
+        "Status": "Not started",
+        "Season": 2,
+        "Episode": 4,
+        "Source URL": "https://www.hkml.ai/2020/04/hong-kong-machine-learning-season-2-episode-4/",
+        "Venue": "your home, on zoom. All meetups will be online as long as this COVID-19 crisis is not over.",
+        "Excerpt": "Gautier Marti - My recent attempts at using GANs for simulating realistic stocks returns",
+        "Introduction": "Gautier Marti - My recent attempts at using GANs for simulating realistic stocks returns",
+        "date:Event date:start": "2020-04-08T19:30:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2020-04-08T20:30:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-8141-9dce-cb80356a423d",
+      "url": "https://app.notion.com/p/3edbda8464f681419dcecb80356a423d?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 2 Episode 3",
+        "Slug": "hong-kong-machine-learning-season-2-episode-3",
+        "Status": "Not started",
+        "Season": 2,
+        "Episode": 3,
+        "Source URL": "https://www.hkml.ai/2020/01/hong-kong-machine-learning-season-2-episode-3/",
+        "Venue": "Credit Suisse, ICC 88/F, West Kowloon, Hong Kong",
+        "Excerpt": "Note that, as usual, errors and approximations in the summaries below are mine.",
+        "Introduction": "Note that, as usual, errors and approximations in the summaries below are mine.",
+        "date:Event date:start": "2020-01-20T18:30:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2020-01-20T21:00:00+08:00"
+      }
+    }
+  ]
+}

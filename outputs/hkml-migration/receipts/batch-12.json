@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "id": "3edbda84-64f6-81b5-bd81-c7679fb5b414",
+      "url": "https://app.notion.com/p/3edbda8464f681b5bd81c7679fb5b414?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 1 Episode 10",
+        "Slug": "hong-kong-machine-learning-season-1-episode-10",
+        "Status": "Not started",
+        "Season": 1,
+        "Episode": 10,
+        "Source URL": "https://www.hkml.ai/2019/05/hong-kong-machine-learning-season-1-episode-10/",
+        "Venue": "Prime Insight, 3 Lockhart Road, Wan Chai, Hong Kong",
+        "Excerpt": "Note that, as usual, errors and approximations in the summaries below are mine.",
+        "Introduction": "Note that, as usual, errors and approximations in the summaries below are mine.",
+        "date:Event date:start": "2019-05-15T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2019-05-15T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-81d0-abeb-ee4556df9abf",
+      "url": "https://app.notion.com/p/3edbda8464f681d0abebee4556df9abf?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 1 Episode 9",
+        "Slug": "hong-kong-machine-learning-season-1-episode-9",
+        "Status": "Not started",
+        "Season": 1,
+        "Episode": 9,
+        "Source URL": "https://www.hkml.ai/2019/04/hong-kong-machine-learning-season-1-episode-9/",
+        "Venue": "TusParkHK Innovation Hub, 118 Wai Yip Street, Kwun Tong, Hong Kong",
+        "Excerpt": "Note that, as usual, errors and approximations in the summaries below are mine. Especially this time as my understanding of biology is unfortunately rather low.",
+        "Introduction": "Note that, as usual, errors and approximations in the summaries below are mine. Especially this time as my understanding of biology is unfortunately rather low.",
+        "date:Event date:start": "2019-04-17T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2019-04-17T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-81b1-b6d6-ff5bd1a5a0d2",
+      "url": "https://app.notion.com/p/3edbda8464f681b1b6d6ff5bd1a5a0d2?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 1 Episode 8",
+        "Slug": "hong-kong-machine-learning-season-1-episode-8",
+        "Status": "Not started",
+        "Season": 1,
+        "Episode": 8,
+        "Source URL": "https://www.hkml.ai/2019/03/hong-kong-machine-learning-season-1-episode-8/",
+        "Venue": "Refinitiv (Thomson Reuters), ICBC Tower, 18/F, 3 Garden Road, Central, Hong Kong",
+        "Excerpt": "Tan Li - Machine-Learning-based Market Crash Early Indicator and How TDA Can Boost the Performance at High Cut-offs",
+        "Introduction": "Tan Li - Machine-Learning-based Market Crash Early Indicator and How TDA Can Boost the Performance at High Cut-offs",
+        "date:Event date:start": "2019-03-12T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2019-03-12T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-81d7-b1da-d666a160230e",
+      "url": "https://app.notion.com/p/3edbda8464f681d7b1dad666a160230e?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 1 Episode 7",
+        "Slug": "hong-kong-machine-learning-season-1-episode-7",
+        "Status": "Not started",
+        "Season": 1,
+        "Episode": 7,
+        "Source URL": "https://www.hkml.ai/2019/02/hong-kong-machine-learning-season-1-episode-7/",
+        "Venue": "Prime Insight, 3 Lockhart Road, Wan Chai, Hong Kong",
+        "Excerpt": "Marko Valentin Micic - Hyperbolic Deep Learning for Chinese Natural Language Understanding",
+        "Introduction": "Marko Valentin Micic - Hyperbolic Deep Learning for Chinese Natural Language Understanding",
+        "date:Event date:start": "2019-02-20T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2019-02-20T21:00:00+08:00"
+      }
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+[
+  {
+    "id": "sample-s7e5",
+    "name": "Builders at the edge of Web3, quant finance & NLP",
+    "slug": "hong-kong-machine-learning-season-7-episode-5",
+    "status": "Published",
+    "season": 7,
+    "episode": 5,
+    "start": "2025-12-18T18:30:00+08:00",
+    "end": "2025-12-18T21:00:00+08:00",
+    "venue": "Bullish Limited",
+    "address": "31/F, The Centrium, 60 Wyndham Street, Central, Hong Kong",
+    "meetupUrl": "https://www.meetup.com/hong-kong-machine-learning-meetup/",
+    "organizer": "Vahid Asghari",
+    "sponsor": "Bullish",
+    "cover": "/images/hkml-s7e5-1200.webp",
+    "coverAlt": "HKML Season 7 Episode 5 attendees in conversation at Bullish",
+    "excerpt": "A year-end evening bringing together builders from Web3, quantitative finance, and natural language processing.",
+    "introduction": "Our final meetup of the year explored how machine learning continues to reshape industries in very different ways—from market infrastructure to language systems. Three focused talks, candid questions, and an open networking session made space for both technical depth and new connections.",
+    "tags": ["machine learning", "NLP", "quant finance"],
+    "speakers": [
+      {
+        "name": "Dr. Maya Chen",
+        "talkTitle": "Learning signals in digital asset markets",
+        "summary": "A practical look at separating repeatable information from noise in always-on markets, with lessons from production research workflows.",
+        "bio": "Maya leads quantitative research for an Asia-based digital assets team and works across market microstructure, statistics, and machine learning."
+      },
+      {
+        "name": "Aaron Leung",
+        "talkTitle": "Small language models, useful systems",
+        "summary": "How constrained language models can outperform larger alternatives when evaluation, latency, and domain context are designed together.",
+        "bio": "Aaron builds applied NLP products and helps teams move language-model prototypes into reliable production services.",
+        "slides": "https://www.hkml.ai/"
+      },
+      {
+        "name": "Priya Raman",
+        "talkTitle": "Trustworthy agents for financial operations",
+        "summary": "Design patterns for observable, reviewable agent workflows in high-consequence operational environments.",
+        "bio": "Priya is a product engineering leader working at the intersection of AI systems, risk, and financial infrastructure."
+      }
+    ]
+  },
+  {
+    "id": "sample-s7e3",
+    "name": "Hedge funds’ reaching for beta & Asia frontiers",
+    "slug": "hong-kong-machine-learning-season-7-episode-3",
+    "status": "Published",
+    "season": 7,
+    "episode": 3,
+    "start": "2025-07-10T18:30:00+08:00",
+    "end": "2025-07-10T20:30:00+08:00",
+    "venue": "HKU iCube by HKU Business School",
+    "address": "Two Exchange Square, Central, Hong Kong",
+    "meetupUrl": "https://www.meetup.com/hong-kong-machine-learning-meetup/",
+    "organizer": "HKML",
+    "sponsor": "HKDAS",
+    "cover": "/images/hkml-s7e3-1200.webp",
+    "coverAlt": "Audience attending an HKML event in Hong Kong",
+    "excerpt": "Research and practice meet in an evening about monetary policy, hedge fund behaviour, and Asia’s market frontiers.",
+    "introduction": "A collaborative HKML and HKDAS event connecting academic insight with real-world investment research.",
+    "tags": ["machine learning", "finance"],
+    "speakers": [
+      {
+        "name": "Sofia Laurent",
+        "talkTitle": "Monetary policy and hedge funds’ reaching for beta",
+        "summary": "An empirical view of how shifts in monetary policy change risk taking and factor exposure among hedge funds.",
+        "bio": "Sofia researches asset management, market structure, and the transmission of monetary policy."
+      },
+      {
+        "name": "Daniel Wong",
+        "talkTitle": "Machine learning across Asia’s frontier markets",
+        "summary": "What data availability, liquidity, and local market structure mean for applied ML research across Asia.",
+        "bio": "Daniel is a systematic investor focused on Asian markets and alternative data."
+      }
+    ]
+  },
+  {
+    "id": "sample-s7e2",
+    "name": "Multi-agent RAG, climate signals & applied vision",
+    "slug": "hong-kong-machine-learning-season-7-episode-2",
+    "status": "Published",
+    "season": 7,
+    "episode": 2,
+    "start": "2025-04-24T18:00:00+08:00",
+    "end": "2025-04-24T20:00:00+08:00",
+    "venue": "Maven Securities",
+    "address": "Wan Chai, Hong Kong",
+    "meetupUrl": "https://www.meetup.com/hong-kong-machine-learning-meetup/",
+    "organizer": "Vahid Asghari",
+    "cover": "/images/hkml-s7e2-1200.webp",
+    "coverAlt": "Speaker line-up for HKML Season 7 Episode 2",
+    "excerpt": "Three production-minded talks spanning fresh-data RAG, climate modelling, and practical computer vision.",
+    "introduction": "This session focused on machine learning systems that work with imperfect, changing, real-world data.",
+    "tags": ["RAG", "computer vision", "climate"],
+    "speakers": [
+      {
+        "name": "Alex Hunsberger",
+        "talkTitle": "MAVRAG: Multi-Agent Vectorless RAG",
+        "summary": "Learn from trial and error about answering natural-language questions by querying multiple data sources without stale data, using a multi-agent hierarchy within the RAG framework.",
+        "bio": "Alex works on reliable information retrieval and agent systems for financial research.",
+        "slides": "https://www.hkml.ai/"
+      },
+      {
+        "name": "Manish Raychaudhuri",
+        "talkTitle": "Reading climate risk through alternative data",
+        "summary": "A tour of modelling choices and validation challenges when physical and economic climate signals meet.",
+        "bio": "Manish is a researcher and technology leader applying data science to complex investment questions."
+      },
+      {
+        "name": "Juncheng Li",
+        "talkTitle": "Computer vision beyond the benchmark",
+        "summary": "How robust representation choices change the outcome of vision systems deployed outside the lab.",
+        "bio": "Juncheng’s research focuses on practical and trustworthy computer vision."
+      }
+    ]
+  },
+  {
+    "id": "sample-s7e1",
+    "name": "Teaching machines to hear the unsaid",
+    "slug": "hong-kong-machine-learning-season-7-episode-1",
+    "status": "Published",
+    "season": 7,
+    "episode": 1,
+    "start": "2025-02-20T18:30:00+08:00",
+    "end": "2025-02-20T20:30:00+08:00",
+    "venue": "PremiaLab",
+    "address": "Tin Hau, Hong Kong",
+    "meetupUrl": "https://www.meetup.com/hong-kong-machine-learning-meetup/",
+    "organizer": "HKML",
+    "sponsor": "PremiaLab",
+    "cover": "/images/hkml-s7e1-1200.webp",
+    "coverAlt": "HKML Season 7 Episode 1 event artwork",
+    "excerpt": "An evening on extracting tone from speech embeddings and building better models for human communication.",
+    "introduction": "Season seven opened with a close look at what speech conveys beyond words—and how careful evaluation turns embeddings into useful signals.",
+    "tags": ["speech", "embeddings"],
+    "speakers": [
+      {
+        "name": "Natalie Lau",
+        "talkTitle": "Teaching machines to hear the unsaid",
+        "summary": "Extracting tone from speech embeddings, with practical notes on data collection, representation, and evaluation.",
+        "bio": "Natalie is a machine-learning researcher working on speech, language, and human-centred AI."
+      }
+    ]
+  },
+  {
+    "id": "sample-s6e6",
+    "name": "Responsible AI in the generative era",
+    "slug": "hong-kong-machine-learning-season-6-episode-6",
+    "status": "Published",
+    "season": 6,
+    "episode": 6,
+    "start": "2024-12-10T18:00:00+08:00",
+    "end": "2024-12-10T21:00:00+08:00",
+    "venue": "AWS GenAI Pop-up",
+    "address": "Tower 535, Causeway Bay, Hong Kong",
+    "meetupUrl": "https://www.meetup.com/hong-kong-machine-learning-meetup/",
+    "organizer": "Vahid Asghari and Amy Wong",
+    "sponsor": "Amazon Web Services",
+    "cover": "/images/hkml-s6e6-1200.webp",
+    "coverAlt": "HKML audience at the AWS GenAI pop-up",
+    "excerpt": "A grounded conversation about evaluation, governance, and responsibility in generative-AI products.",
+    "introduction": "Researchers and practitioners shared concrete ways to make generative systems safer, more measurable, and easier to govern.",
+    "tags": ["responsible AI", "generative AI"],
+    "speakers": [
+      {
+        "name": "Amelia Ho",
+        "talkTitle": "Responsible AI in the era of generative AI",
+        "summary": "A field guide to moving from broad principles to measurable checks across a generative system’s lifecycle.",
+        "bio": "Amelia advises product and engineering teams on trustworthy AI and model governance."
+      },
+      {
+        "name": "Marco Ng",
+        "talkTitle": "Evaluations that survive contact with users",
+        "summary": "Combining offline test sets, human review, and production monitoring to understand real system behaviour."
+      }
+    ]
+  },
+  {
+    "id": "sample-s6e5",
+    "name": "From ML research to resilient systems",
+    "slug": "hong-kong-machine-learning-season-6-episode-5",
+    "status": "Published",
+    "season": 6,
+    "episode": 5,
+    "start": "2024-10-04T17:00:00+08:00",
+    "end": "2024-10-04T19:00:00+08:00",
+    "venue": "Maven Securities",
+    "address": "Wan Chai, Hong Kong",
+    "meetupUrl": "https://www.meetup.com/hong-kong-machine-learning-meetup/",
+    "organizer": "HKML",
+    "cover": "/images/hkml-s6e5-1200.webp",
+    "coverAlt": "Attendees at HKML Season 6 Episode 5",
+    "excerpt": "Lessons from taking promising research ideas into observable, dependable production systems.",
+    "introduction": "A practical session about the decisions, trade-offs, and teamwork behind production machine-learning systems.",
+    "tags": ["MLOps", "production"],
+    "speakers": [
+      {
+        "name": "Chris Tam",
+        "talkTitle": "From notebook to dependable service",
+        "summary": "A compact set of patterns for turning experimental models into services that teams can understand and operate.",
+        "bio": "Chris leads machine-learning engineering for a financial technology team."
+      }
+    ]
+  },
+  {
+    "id": "sample-draft",
+    "name": "Draft episode — never rendered",
+    "slug": "draft-episode",
+    "status": "Draft",
+    "season": 8,
+    "episode": 1,
+    "start": "2026-11-01T18:30:00+08:00",
+    "venue": "To be announced",
+    "speakers": []
+  }
+]

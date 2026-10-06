@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EpisodeCard from '../../components/EpisodeCard.astro';
+import { getEpisodes } from '../../lib/episodes';
+const episodes = await getEpisodes();
+---
+<BaseLayout title="Topics — Hong Kong Machine Learning" description="Explore machine-learning topics across the HKML episode archive." canonicalPath="/tags/">
+  <header class="page-hero"><div class="container"><p class="kicker">Topics</p><h1>Machine learning,<br />in all its forms.</h1><p>Every published episode remains available here. Use the archive to filter by season.</p></div></header>
+  <section class="section"><div class="container"><div class="episode-grid">{episodes.map((episode) => <EpisodeCard episode={episode} />)}</div></div></section>
+</BaseLayout>

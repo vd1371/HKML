@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "id": "3edbda84-64f6-81e8-958d-c210e0b3e4c0",
+      "url": "https://app.notion.com/p/3edbda8464f681e8958dc210e0b3e4c0?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 2 Episode 2",
+        "Slug": "hong-kong-machine-learning-season-2-episode-2",
+        "Status": "Not started",
+        "Season": 2,
+        "Episode": 2,
+        "Source URL": "https://www.hkml.ai/2019/10/hong-kong-machine-learning-season-2-episode-2/",
+        "Venue": "Entrepreneur First, Campfire Lounge 5/F, 42 Wong Chuk Hang Rd, Aberdeen, Hong Kong",
+        "Excerpt": "Note that, as usual, errors and approximations in the summaries below are mine. Especially this time as my understanding of column-oriented databases is unfortunately rather low.",
+        "Introduction": "Note that, as usual, errors and approximations in the summaries below are mine. Especially this time as my understanding of column-oriented databases is unfortunately rather low.",
+        "date:Event date:start": "2019-10-17T18:30:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2019-10-17T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-81cb-bf13-fb06192a18d6",
+      "url": "https://app.notion.com/p/3edbda8464f681cbbf13fb06192a18d6?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 2 Episode 1",
+        "Slug": "hong-kong-machine-learning-season-2-episode-1",
+        "Status": "Not started",
+        "Season": 2,
+        "Episode": 1,
+        "Source URL": "https://www.hkml.ai/2019/09/hong-kong-machine-learning-season-2-episode-1/",
+        "Venue": "Prime Insight, 3 Lockhart Road, Wan Chai, Hong Kong",
+        "Excerpt": "Note that, as usual, errors and approximations in the summaries below are mine.",
+        "Introduction": "Note that, as usual, errors and approximations in the summaries below are mine.",
+        "date:Event date:start": "2019-09-25T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2019-09-25T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-8195-8caf-d8e4a0ecdc0e",
+      "url": "https://app.notion.com/p/3edbda8464f681958cafd8e4a0ecdc0e?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 1 Episode 12",
+        "Slug": "hong-kong-machine-learning-season-1-episode-12",
+        "Status": "Not started",
+        "Season": 1,
+        "Episode": 12,
+        "Source URL": "https://www.hkml.ai/2019/07/hong-kong-machine-learning-season-1-episode-12/",
+        "Venue": "Amazon AWS Hong Kong, Tower 535, aws pop-up loft 26/F, Causeway Bay, Hong Kong",
+        "Excerpt": "Alex Lau on WGAN-GP",
+        "Introduction": "Alex Lau on WGAN-GP",
+        "date:Event date:start": "2019-07-17T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2019-07-17T21:00:00+08:00"
+      }
+    },
+    {
+      "id": "3edbda84-64f6-8140-a0f0-f618d99681bc",
+      "url": "https://app.notion.com/p/3edbda8464f68140a0f0f618d99681bc?pvs=204",
+      "properties": {
+        "Name": "Hong Kong Machine Learning Season 1 Episode 11",
+        "Slug": "hong-kong-machine-learning-season-1-episode-11",
+        "Status": "Not started",
+        "Season": 1,
+        "Episode": 11,
+        "Source URL": "https://www.hkml.ai/2019/06/hong-kong-machine-learning-season-1-episode-11/",
+        "Venue": "the Hive Kennedy Town, Kennedy Town, Hong Kong",
+        "Excerpt": "David Zhu, CTO at Clover International",
+        "Introduction": "David Zhu, CTO at Clover International",
+        "date:Event date:start": "2019-06-15T19:00:00+08:00",
+        "date:Event date:is_datetime": 1,
+        "date:Event date:end": "2019-06-15T21:00:00+08:00"
+      }
+    }
+  ]
+}

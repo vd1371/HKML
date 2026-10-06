@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EpisodeCard from '../components/EpisodeCard.astro';
+import { getEpisodes } from '../lib/episodes';
+
+const episodes = await getEpisodes();
+const latest = episodes[0];
+const recent = episodes.slice(1, 7);
+---
+
+<BaseLayout
+  title="Hong Kong Machine Learning — Ideas worth meeting around"
+  description="Hong Kong’s community for thoughtful conversations about AI, machine learning, data science, and quantitative research."
+>
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="kicker">Hong Kong · Since 2018</p>
+        <h1>Ideas worth <span>meeting</span> around.</h1>
+        <p>We bring researchers, builders, and curious practitioners together for clear talks, honest questions, and useful connections across Hong Kong’s machine-learning community.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://www.meetup.com/hong-kong-machine-learning-meetup/" target="_blank" rel="noreferrer">Join our next meetup <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="/episodes/">Browse the archive <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="hero-orbit" aria-hidden="true">
+        <div class="orbit-ring"></div>
+        <div class="orbit-ring"></div>
+        <div class="orbit-core">HKML</div>
+        <span class="orbit-label one">Research ↔ Practice</span>
+        <span class="orbit-label two">People ↔ Ideas</span>
+        <span class="orbit-label three">Hong Kong ↔ World</span>
+      </div>
+    </div>
+  </section>
+
+  {latest && (
+    <section class="section section-white">
+      <div class="container feature-wrap">
+        <div class="section-heading">
+          <div><p class="kicker">Latest episode</p><h2>Fresh from the community</h2></div>
+          <a class="text-link" href="/episodes/">All episodes <span aria-hidden="true">→</span></a>
+        </div>
+        <EpisodeCard episode={latest} featured />
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="container">
+      <div class="section-heading">
+        <div><p class="kicker">Recent conversations</p><h2>Big questions. Practical answers.</h2></div>
+        <p class="heading-copy">From language systems and computer vision to market structure and responsible AI, each episode is built to make room for substance.</p>
+      </div>
+      <div class="episode-grid">
+        {recent.map((episode) => <EpisodeCard episode={episode} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark">
+    <div class="container community-strip">
+      <div>
+        <p class="kicker">Open, technical, human</p>
+        <h2>Come for the talks. Stay for the exchange.</h2>
+        <p>HKML connects people across academia, industry, startups, and independent research. Whether you are deep in the work or finding your way in, there is a place in the conversation.</p>
+        <a class="button button-primary" href="https://www.linkedin.com/company/hong-kong-machine-learning/" target="_blank" rel="noreferrer">Follow HKML on LinkedIn <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="community-stats" aria-label="Community snapshot">
+        <div><strong>2,200+</strong><span>Meetup members</span></div>
+        <div><strong>60+</strong><span>Published episodes</span></div>
+        <div><strong>HK</strong><span>Made in Hong Kong</span></div>
+        <div><strong>Open</strong><span>To curious minds</span></div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

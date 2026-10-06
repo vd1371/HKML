@@ -1,0 +1,21 @@
+---
+const path = Astro.url.pathname;
+const isCurrent = (href: string) => href === '/' ? path === '/' : path.startsWith(href);
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/" aria-label="Hong Kong Machine Learning home">
+      <img src="/images/hkml-logo.svg" alt="HKML" width="120" height="36" />
+      <span>MACHINE LEARNING</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="/episodes/" aria-current={isCurrent('/episodes/') ? 'page' : undefined}>Episodes</a>
+      <a href="/about/" aria-current={isCurrent('/about/') ? 'page' : undefined}>About</a>
+      <a class="nav-cta" href="https://www.meetup.com/hong-kong-machine-learning-meetup/" target="_blank" rel="noreferrer">
+        Join the community
+        <span aria-hidden="true">↗</span>
+      </a>
+    </nav>
+  </div>
+</header>

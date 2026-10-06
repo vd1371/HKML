@@ -1,0 +1,28 @@
+{
+  "name": "hkml-static-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "archive:collect": "node scripts/migration/collect.mjs",
+    "archive:assets": "node scripts/migration/assets.mjs",
+    "archive:preview": "node scripts/migration/import.mjs",
+    "archive:import": "node scripts/migration/import.mjs --apply",
+    "archive:test": "node --test --test-isolation=none scripts/migration/migration.test.mjs"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/space-grotesk": "^5.2.8",
+    "astro": "^7.3.5",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "cheerio": "^1.2.0",
+    "typescript": "^5.9.2"
+  }
+}

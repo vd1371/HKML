@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EpisodeCard from '../../components/EpisodeCard.astro';
+import SeasonFilter from '../../components/SeasonFilter.astro';
+import { getEpisodes } from '../../lib/episodes';
+
+const episodes = await getEpisodes();
+const seasons = [...new Set(episodes.map((episode) => episode.season))].sort((a, b) => b - a);
+---
+
+<BaseLayout
+  title="Episode archive — Hong Kong Machine Learning"
+  description="Browse every published HKML episode, newest first, and filter the archive by season."
+  canonicalPath="/episodes/"
+>
+  <header class="page-hero">
+    <div class="container">
+      <p class="kicker">Episode archive</p>
+      <h1>Every conversation,<br />one clear archive.</h1>
+      <p>Explore talks from Hong Kong’s machine-learning community—organized by season and always ordered newest first.</p>
+    </div>
+  </header>
+  <section class="section">
+    <div class="container">
+      <SeasonFilter seasons={seasons} />
+      <div class="episode-grid">
+        {episodes.map((episode) => <EpisodeCard episode={episode} />)}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
